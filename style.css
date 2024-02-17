@@ -252,8 +252,15 @@ header nav ul li a.active {
   .img {
     display: none;
   }
-  .text {
+  .landing .text {
     width: 100%;
     background-color: var(--main-color);
+    padding: 30px;
+  }
+  .landing .text .content h2 {
+    font-size: 20px;
+  }
+  .landing .text .content p {
+    font-size: 10px;
   }
 }
